@@ -12,7 +12,8 @@ public class Bus {
 
     public void take(int money) {
         this.money += money;
-        passengerCount++; // 왜 여기서 this. 안 하는지?
+        passengerCount++; // 왜 여기서 this. 안 하는지? 
+        // 가장 가까운 변수를 참조하는데, 이 경우 argument로 passengerCount를 안 받기 때문에!
 
     }
 
