@@ -12,5 +12,9 @@ public class StudentTest1 {
 
         // 두 개의 인스턴스가 공유하는 값
         System.out.println(Student.getSerialNum());
+<<<<<<< HEAD
+=======
+
+>>>>>>> bfcf58a100d66c3b9f3b919ffdcc7f4243072e63
     }
 }
