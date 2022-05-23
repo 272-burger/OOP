@@ -7,7 +7,12 @@ public class CalculatorTest {
         int num2 = 2;
 
         Calc calc = new CompleteCalc();
-
         System.out.println(calc.add(num1, num2));
+
+        calc.description();
+
+        int [] arr = {1,2,3,4,5};
+        int sum = Calc.total(arr); // 정적 메서드는 인스턴스 생성과 상관없이 호출 가능
+        System.out.println(sum);
     }
 }
